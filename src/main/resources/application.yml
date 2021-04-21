@@ -17,3 +17,4 @@ grpc:
   channels:
     keyManager:
       addres: http://localhost:50051
+jackson.serialization.writeDateAsTimestamps: false
