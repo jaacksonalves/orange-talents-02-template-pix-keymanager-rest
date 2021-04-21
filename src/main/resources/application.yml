@@ -16,4 +16,4 @@ grpc:
     max-retry-attempts: 10
   channels:
     keyManager:
-      addres: localhost:50051
+      addres: http://localhost:50051
