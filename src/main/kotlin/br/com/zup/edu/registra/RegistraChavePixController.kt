@@ -14,7 +14,7 @@ import javax.inject.Inject
 import javax.validation.Valid
 
 @Validated
-@Controller("api/pix/clientes")
+@Controller("api/clientes")
 class RegistraChavePixController(@Inject private val registraChavePixClient: KeyManagerGrpcServiceGrpc.KeyManagerGrpcServiceBlockingStub) {
 
     private val LOGGER = LoggerFactory.getLogger(this::class.java)
